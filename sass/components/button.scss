@@ -1,0 +1,74 @@
+@use "/sass/abstract/varibles.scss";
+
+
+.btn{
+background-color: $color-primary;
+padding: 12px 22px;
+border-radius: 50px;
+display: block;
+color: $color-white;
+    text-decoration: none;
+    font-weight: 500;
+
+    &:hover{
+        opacity: 0.8;
+    }
+}
+
+@media screen and (min-width: 836px){
+     .btn{
+         display: inline-block;
+         padding: 15px 0px;
+     }
+}
+
+.button-primary{
+    width: 32%;
+    margin: 15px auto;
+
+    .primary-span{
+        color: $color-primary-light;
+        margin-left: 2px;
+    }
+}
+
+.button-secondary{
+    background-color: $color-sub-primary;
+    width: 19%;
+    margin: 0 auto;
+}
+    
+    @media screen and (min-width: 836px){
+        .button-primary{
+            width: 213px;
+            margin-right: 14px;
+         }
+
+   }
+   @media screen and (min-width: 1070px) {
+    .button-secondary{
+        width: 11%;
+    }
+
+    .button-secondary{
+        width: 186px;
+    }
+}
+
+.footer__button{
+    width: 79%;
+
+}
+
+@media screen and (min-width: 836px){
+    .footer__button{
+        width: 213px;
+        margin-right: 14px;
+     }
+
+}
+
+.footer-span{
+    color: $color-sub-primary-light;
+    margin-right: 2px;
+}
