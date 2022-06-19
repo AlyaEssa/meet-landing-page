@@ -1,0 +1,14 @@
+{
+  "name": "meet-landing-page-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": " node-sass sass/style.scss  css/style.css -w"
+  },
+  "author": "alya",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
