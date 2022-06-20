@@ -1,0 +1,21 @@
+.img-display {
+  text-align: center;
+  .image {
+    width: 177px;
+    border-radius: 9px;
+    margin: 6px;
+  }
+}
+@media (min-width: 990px) {
+  .img-display {
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+
+    .image {
+      width: 265px;
+      border-radius: 9px;
+      margin: 6px;
+    }
+  }
+}
