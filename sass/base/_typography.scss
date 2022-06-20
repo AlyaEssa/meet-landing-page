@@ -1,0 +1,13 @@
+body {
+  color: $color-dark;
+  font-family: $font-defualt;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+html {
+  font-size: 62.6%;
+}
