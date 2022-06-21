@@ -106,7 +106,7 @@ html {
   color: #fafafa;
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(to right, rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)), url("/meet-landing-page-main/assets/mobile/image-footer.jpg");
+  background-image: linear-gradient(to right, rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)), url("/assets/mobile/image-footer.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -126,12 +126,12 @@ html {
 
 @media (min-width: 768px) {
   .footer {
-    background-image: linear-gradient(to right, rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)), url("/meet-landing-page-main/assets/tablet/image-footer.jpg");
+    background-image: linear-gradient(to right, rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)), url("/assets/tablet/image-footer.jpg");
     margin-bottom: 12rem; } }
 
 @media (min-width: 990px) {
   .footer {
-    background-image: linear-gradient(to right, rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)), url("/meet-landing-page-main/assets/desktop/image-footer.jpg"); }
+    background-image: linear-gradient(to right, rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)), url("/assets/desktop/image-footer.jpg"); }
     .footer__content {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
